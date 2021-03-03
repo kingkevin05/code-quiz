@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Code Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<header>
+  <h2>Your Score <span id="time">60</span></h2>
+  <!-- <a class="scoreBtn" href="highscore.html">HighScores</a> -->
+</header>
+<body>
+  <div class="container">
+    <div id="quiz" class="justify-center flex-column">
+      <h2 id="question">Insert question here</h2>
+      <div class="choice-container">
+        <p class="choice-text" data-answer="1">choice one</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-text" data-answer="2">choice two</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-text" data-answer="3">choice three</p>
+      </div>
+      <div class="choice-container">
+        <p class="choice-text" data-answer="4">choice four</p>
+      </div>
+      <div id="answerIs"></div>
+    </div>
+  </div>
+
+  <script src="./assets/js/quiz.js"></script>
+</body>
+</html>
